@@ -1,0 +1,41 @@
+{
+  "NumberOfPassengersDefault": "1",
+  "PassengerCategoryDefault": "Adult (16-64)",
+  "DefaultData": [
+    "1",
+    "Adult (16-64)"
+  ],
+  "Ticket": [
+    [
+      "One way",
+      "Business",
+      "Illinois",
+      "Florida",
+      "7",
+      "",
+      "1",
+      "Senior (65+)"
+    ],
+    [
+      "Round trip",
+      "First",
+      "California",
+      "Illinois",
+      "7",
+      "30",
+      "1",
+      "Adult (16-64)"
+    ],
+    [
+      "One way",
+      "Premium Economy",
+      "New York",
+      "Texas",
+      "1",
+      "",
+      "2",
+      "Adult (16-64)",
+      "Child (2-11)"
+    ]
+  ]
+}
