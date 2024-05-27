@@ -129,7 +129,7 @@ describe('Homework03 - Cypress-Project-03', () => {
         bookingFunction.getRes().each(function ($el, index) {
           if ($el.text().includes('Number of Passengers')) cy.wrap($el).should('include.text', `${ticket[i][6]}`)
           if ($el.text().includes('Passenger ')) cy.wrap($el).should('include.text', `${ticket[i][6 + index]}`)
-          if ($el.text().includes('Cabin Class')) cy.wrap($el).should('include.text', `${ticket[i][1]}`)
+          if ($el.text().includes('Cabin class: ')) cy.wrap($el).should('include.text', `${ticket[i][1]}`)
 
         })
 
